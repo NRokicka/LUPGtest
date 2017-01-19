@@ -1,11 +1,17 @@
 
-.home_pages{
-    
+body {
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+    color: #525252;
+    font-family: "Lora", serif;
+    font-size: 12px;
 }
+
 .site_header {
     background-color: #6699FF;
     text-align: right;
-    margin: 20px;
+    margin: 0px;
     padding: 0px;
    
 }
@@ -18,7 +24,6 @@
 .site_header_item li {
     display: inline;
     font: bold 12px/1.5 Arial, Helvetica, sans-serif;
-    margin: 0px;
     padding: 10px;
 }
 .site_header_item li a {
@@ -26,7 +31,17 @@
      text-decoration: none;
 }
 .site_header_item li a:hover {
-    color: #2980B2;
+    color: #041A5C;
 }
 
-
+footer {
+    color: #fff;
+    background-color: #525252
+    
+}
+.bottom_footer {
+    background-color: #6699FF;
+    text-align: left;
+    margin: 0px;
+    padding: 15px;
+}
