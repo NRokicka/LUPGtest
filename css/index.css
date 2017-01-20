@@ -33,12 +33,16 @@ body {
 .site_header_item li a:hover {
     color: #041A5C;
 }
+#contact_us a {
+    color: #E74C3C;
+}
 
 footer {
     color: #fff;
     background-color: #525252
     
 }
+
 .bottom_footer {
     background-color: #6699FF;
     text-align: left;
