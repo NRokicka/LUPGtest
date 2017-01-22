@@ -1,4 +1,62 @@
-body {
-    background-color: #fff;
+
+    
+@media screen and (max-width: 770px) {
+    header {
+        display: none;
+    }
+    nav ul {
+        display: none;
+    }
+    article {
+      
+        
+    }
+    article #top_menu {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: 0 auto;
+       padding: 10px;
+       
+    }
+    article #blog {
+        color: #ff9900;
+        background-color: #fff;
+        border: 1px solid;
+        border-color: #ff9900; 
+        border-radius: 4px;
+        text-transform: uppercase;
+        padding: 10px 50px 10px 50px;
+        margin: 10px;
+        
+       
+        
+    }
+    article #contacts {
+        color: #fff;
+        background-color: #ff9900;
+        border: 1px solid;
+        border-color: #ff9900; 
+        border-radius: 4px;
+        text-transform: uppercase;
+        padding: 10px 32px 10px 32px;
+       margin: 10px;
+        
+    }
+}
+    
+@media screen and (max-width: 450px) {
+    ul {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 50px;
+    padding: 50px; 
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+    
     
 }
