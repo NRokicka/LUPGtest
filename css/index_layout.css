@@ -7,56 +7,83 @@
     nav ul {
         display: none;
     }
-    article {
-      
-        
+    main {
+        flex-wrap: wrap;
     }
-    article #top_menu {
+    main article {
+        order: 1;
+    }
+    main aside {
+        order: 2;
+    }
+    main aside .form_send_box {
+        border: 1px solid;
+        border-color: #ff9900;
+        visibility: visible;
+        
+ 
+}
+    .top_menu {
        display: flex;
        align-items: center;
        justify-content: center;
-       margin: 0 auto;
-       padding: 10px;
-       
+       margin: 20px;
     }
-    article #blog {
+    #blog {
         color: #ff9900;
         background-color: #fff;
         border: 1px solid;
         border-color: #ff9900; 
         border-radius: 4px;
         text-transform: uppercase;
-        padding: 10px 50px 10px 50px;
+        padding: 10px 25px;
         margin: 10px;
-        
-       
-        
     }
-    article #contacts {
+    #contacts {
         color: #fff;
         background-color: #ff9900;
         border: 1px solid;
         border-color: #ff9900; 
         border-radius: 4px;
         text-transform: uppercase;
-        padding: 10px 32px 10px 32px;
-       margin: 10px;
-        
+        padding: 10px;
+        margin: 10px;
+    }
+    .learne_about {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: 20px;
     }
 }
     
 @media screen and (max-width: 450px) {
-    ul {
-    list-style-type: none;
-    list-style-position: inside;
-    margin: 50px;
-    padding: 50px; 
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
+   
+    .top_menu ul{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        padding: 0;
+        justify-content: center;
+}
+    #blog {
+        display: flex;
+        padding: 10px;
+        margin: 0;
+        justify-content: center;
+    }
+    #contacts {
+        display: flex;
+        padding: 10px;
+        margin: 0;
+        justify-content: center;
+    }
+    .learne_about ul{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        padding: 0;
+        justify-content: center;
 }
 
-    
-    
 }
