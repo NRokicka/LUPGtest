@@ -12,9 +12,10 @@ body {
     line-height: 1.5em;
     color: #525252;
 }
-h4{
-    color: #525252; 
-    
+h4 {
+    margin: 10px;
+    color: #525252;
+    text-transform: uppercase
 }
 h3 {
     margin: 10px;
@@ -34,7 +35,7 @@ header {
     background-color: #6699FF;
     margin: 0 auto;
     height: 40px;
-    padding-right: 20px;
+    padding-right: 0;
     display: flex;
     justify-content: flex-end;
     align-items:  center;
@@ -48,10 +49,10 @@ ul {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    padding-left: 0px;
+    padding-right: 10px;
 }
-li {
-    padding: 10px;
-}
+
 li a {
     text-decoration: none;
     padding: 10px;
@@ -60,7 +61,7 @@ li a {
 li a:hover {
     cursor: pointer;
 }
-#header_menu a{
+#header_menu a {
     color: white;
 }
 #contact_us a{
@@ -85,8 +86,9 @@ nav #logo {
 nav #nav_menu {
     flex: 2;
 }
+
 #nav_menu a{
-    color: #2980B9;
+    color: #6699ff;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -109,8 +111,10 @@ main aside {
     flex: 1;
     }
     section {
-        
+        display: flex;
+        justify-content: center;
         margin: 10px;
+        align-items: center;
     }
     aside {
     
@@ -129,10 +133,8 @@ main aside {
         margin: 10px;
         flex: 2;
     }  
-    #video {
-        margin: 10px;
-        display: flex;
-        justify-content: center;
+#video {
+        width: 100%
     }
 
     .form_send_box {
@@ -147,8 +149,10 @@ main aside {
        display: none;
     }
 .learne_about{
+    
     border: 1px solid #525252;
     border-radius: 4px;
+    
 }
 
 #go {
@@ -164,6 +168,7 @@ main aside {
 #go a {
     color: white;
 }
+
 .video {
   border: 1px solid green;  
 }
