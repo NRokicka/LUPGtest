@@ -12,6 +12,14 @@ body {
     line-height: 1.5em;
     color: #525252;
 }
+h4{
+    color: #2C3E50; 
+    
+}
+h3{
+   color: #2980B9; 
+}
+
 header {
     font: bold 12px "Arial", sans-serif;
     background-color: #6699FF;
@@ -47,7 +55,7 @@ li a:hover {
     color: red;
 }
 #header_menu a:hover{
-    color: blue;
+    color: #2C3E50;
 }
 
 nav {
@@ -56,6 +64,8 @@ nav {
     height: 110px;
     display: flex;
     align-items:  center;
+    border: 1px solid black;
+    
 }
 nav #logo {
     padding-left: 10px;
@@ -65,16 +75,19 @@ nav #nav_menu {
     flex: 2;
 }
 #nav_menu a{
-    color: blue;
+    color: #2980B9;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 #nav_menu a:hover{
-    color: red;
+    color: #2C3E50;
 }
 main {
     background-color: white;
     margin: 0 auto;
     border: 1px solid red;
     display: flex;
+   
 }
 main article {
     margin: 0 auto;
@@ -86,6 +99,26 @@ main aside {
     border: 1px solid blue;
     flex: 1;
     }
+
+article {
+    margin: 0 auto;
+    border: 1px solid blue;
+    
+}
+section~div {
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;   
+    flex-direction: column;
+}
+
+
+.video {
+    margin: 0 auto;
+    
+    
+}
+    
 .form_send_box {
     visibility: hidden;
 }
@@ -95,9 +128,7 @@ main aside {
 .learne_about{
     border: 1px solid #525252;
     border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
     margin: 60px;
     padding: 15px;
 }
