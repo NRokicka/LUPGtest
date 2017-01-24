@@ -45,7 +45,7 @@
     
 <!-- start carousel -->
         <div>
-            <img src="" alt="Випуск_2012" ></img>
+           
         </div>
 <!-- end carousel --> 
 
@@ -66,8 +66,8 @@
             
         <section class="learne_about">
             <ul>
-                <li id="about">
-                    <h4>LEARNE MORE ABOUT THE LVIV UKRAINIAN PRIVATE GYMNASIUM</h4>
+                <li>
+                   <h4>LEARNE MORE ABOUT THE LVIV UKRAINIAN PRIVATE GYMNASIUM</h4>
                 </li>
                 <li id="go">
                     <a href="#about" >Go!</a>
@@ -75,87 +75,115 @@
             </ul>
         </section>
         
-        <section class="video">
+        <section>
             <div>
                 <h3>Best Gymnazium</h3>
-            </div><br>
-            <div>
-                <iframe src="https://www.youtube.com/embed/GFSjgk-Hi28" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div id="video">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/GFSjgk-Hi28" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
         
         
-        <section class="l_news">
-            <h3>Latest News</h3>
-                <img src="" alt="">
-                <p>hfgascfakkhcf</p>
-        </section>
+        <section class="pre_footer">
+            <div class="l_news">
+                <h3>Latest News</h3>
+                <img src="img/05.jpg" alt="school05" width="100%" height="100">
+                <p>З метою запобігання виникненню епідемічних ускладнень, 
+                враховуючи негативну динаміку захворюваності на ГРВІ та грип по місту, 
+                управління освіти міської ради Кропивницького рекомендувало закладам 
+                освіти продовжити канікулярний період ще на один тиждень”, 
+                — повідомила начальник управління Лариса Костенко.
+                </p>
+            </div>
+            <div class="l_photo">
             
-        <section class="l_photo">
-            <div>
-                <img src="" alt="">
+                <div>
+                    <img src="img/02.jpg" alt="school02" width="20%">
+                    <h3>New Scholarships</h3>
+                    <p>А тоді було складно відкрити заклад, який у назві
+                    має слово «український». Тому початок навчального року 
+                    затягнувся.
+                    </p>
+                </div>
+                <br>
+                <div>
+                    <img src="img/03.jpg" alt="school03" width="20%">
+                    <h3>New Announced</h3>
+                    <p>Порівняно зі звичайними школами, букетів небагато. У залі — 
+                    багато поважних чоловіків у костюмах. Видно, тутешні татусі з 
+                    усією бізнесовою серйозністю ставляться до початку навчального року. 
+                    Серед присутніх зустріла підприємця-«регіонала», власника «Родинної 
+                    ковбаски» Олега Барана. 
+                    </p>
+                </div>   
+                <br>
+                <div>
+                    <img src="img/04.jpg" alt="school04" width="20%">
+                    <h3>Scholarships Announced</h3>
+                    <p>А тоді було складно відкрити заклад, який у назві
+                    має слово «український». Тому початок навчального року 
+                    затягнувся.
+                    </p>
+                </div>
             </div>
-            <div>
-                <h3>New Scholarships Announced</h3>
-                <p>dsvsdgvbadgvb</p>
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <h3>New Scholarships Announced</h3>
-                <p>dsvsdgvbadgvb</p>
-            </div>   
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <h3New Scholarships Announced</h3>
-                <p>dsvsdgvbadgvb</p>
-            </div>  
         </section>
     </article>
 <!-- start aside -->
     <aside>
-        <div>
+        <div class="form_search">
             <form action="#" method="get">
-    <!-- <fieldset> -->
-            <input class="searchfield" type="search" name="s" placeholder="Search">
-            <input class="searchbutton" type="submit" value="Go">
-    <!-- </fieldset> -->
+            <input class="search_field" type="search" name="s" placeholder="Search">
+            <input class="search_button" type="submit" value="Go">
             </form>
         </div>
         <br>
         <div class="form_send_box">
-            <form id="contact" action="https://formspree.io/natalia9rokicka@gmail.com"
+            <form action="https://formspree.io/natalia9rokicka@gmail.com"
       method="post">
-            	   <!-- <fieldset><legend>CONTACT US -->
-            	        <label class="send_box" for="name"></label>
-            	        <br>
-            	        <input id="name" type="text" name="name" placeholder="Your Name" required>
-            	        <br>
-            	        <label class="send_box" for="email"></label>
-            	        <br>
-            	        <input id="email" type="email" name="email" placeholder="Your Email" required>
-            	        <br>
-            	        <label class="send_box" for="phone"></label>
-            	        <br>
-            	        <input id="phone" type="phone" name="phone" placeholder="Phone number" required>
-            	        <br>
-            	        <label class="send_box" for="message"></label>
-            	        <br>
-            	        <textarea name="message" id="message" rows="5" cols="5" placeholder="Your message"></textarea>
-            	        <br>
-            	        <input type="submit" id="submit" value="Send your massage">
-            	    <!--</fieldset> -->
-                </form>
+                <label for="name"></label>
+                <input id="name" type="text" name="name" placeholder="Your Name" required><br>
+                <label for="email"></label>
+                <input id="email" type="email" name="email" placeholder="Your Email" required><br>
+                <label for="phone"></label>
+                <input id="phone" type="phone" name="phone" placeholder="Phone number" required><br>
+                <label for="message"></label>
+                <textarea id="message" name="message"  rows="5" cols="80" placeholder="Your message"></textarea><br>
+                <input id="submit" type="submit"  value="Send your message">
+            </form>
         </div>
         <div>
             <h3><a href="#uevents">UPCOMING EVENTS</a></h3>
-            <p>Loremmmmmmmmmmmmmmmmmmmmmmm</p>
-            <h3><a href="#uevents">UPCOMING EVENTS</a></h3> 
-            <p>Llcvhnasdfsdivlsdkvhnsdfj</p>
+            <p>Як розповіла Галина Софінська, цього року їхній навчальний 
+            заклад набрав 30 першачків. Запитую, чому з таким запізненням святкують початок 
+            навчального року. «Ми відкривали школу відразу після ГКЧП, — пояснює вона. 
+            А тоді було складно відкрити заклад, який у назві має слово «український». 
+            Тому початок навчального року затягнувся. Потім нас ще декілька разів закривали. 
+            Були змушені відтягувати початок навчання. А потім вирішили зробити собі 
+            таку традицію. Діти не мають осінніх канікул. Навчаються цілий семестр. 
+            Останні декілька років святкуємо в Органному залі. Це також традиція».
+            Він сказав, що у цій школі вчаться три його 
+            доньки: одинадцятирічна Іринка, дев’ятирічна Софійка та шестирічна 
+            Анастасійка.
+            </p>
         </div>
+        <div>
+            <h3><a href="#uevents">UPCOMING EVENTS</a></h3> 
+            <p>Під час святкової лінійки — жодних напучувань від кандидатів у 
+            депутати, які полюбляють перед виборами навідуватися на шкільні свята. 
+            Порівняно зі звичайними школами, букетів небагато. У залі — 
+            багато поважних чоловіків у костюмах. Видно, тутешні татусі з 
+            усією бізнесовою серйозністю ставляться до початку навчального року. 
+            Серед присутніх зустріла підприємця-«регіонала», власника «Родинної 
+            ковбаски» Олега Барана. Він сказав, що у цій школі вчаться три його 
+            доньки: одинадцятирічна Іринка, дев’ятирічна Софійка та шестирічна 
+            Анастасійка.
+            Він сказав, що у цій школі вчаться три його 
+            доньки: одинадцятирічна Іринка, дев’ятирічна Софійка та шестирічна 
+            Анастасійка.
+            </p>
+        </div>
+        
     </aside>
     </main>
 <!-- start footer -->

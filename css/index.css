@@ -13,11 +13,20 @@ body {
     color: #525252;
 }
 h4{
-    color: #2C3E50; 
+    color: #525252; 
     
 }
-h3{
-   color: #2980B9; 
+h3 {
+    margin: 10px;
+    color: #2980B9;
+}
+p {
+    margin: 10px;
+}
+img {
+    padding: 10px;
+    margin: 0 auto;
+    float: left;
 }
 
 header {
@@ -35,10 +44,13 @@ ul {
     list-style-type: none;
     list-style-position: inside;
     margin: 0;
-    padding-right: 20px; 
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
+}
+li {
+    padding: 10px;
 }
 li a {
     text-decoration: none;
@@ -52,7 +64,7 @@ li a:hover {
     color: white;
 }
 #contact_us a{
-    color: red;
+    color: #E74C3C;
 }
 #header_menu a:hover{
     color: #2C3E50;
@@ -65,7 +77,6 @@ nav {
     display: flex;
     align-items:  center;
     border: 1px solid black;
-    
 }
 nav #logo {
     padding-left: 10px;
@@ -85,57 +96,61 @@ nav #nav_menu {
 main {
     background-color: white;
     margin: 0 auto;
-    border: 1px solid red;
     display: flex;
-   
 }
 main article {
+    
     margin: 0 auto;
-    border: 1px solid green;
     flex: 2;
     }
 main aside {
     margin: 0 auto;
-    border: 1px solid blue;
+    padding: 10px;
     flex: 1;
     }
+    section {
+        
+        margin: 10px;
+    }
+    aside {
+    
+   
+    }
+    .pre_footer {
+        display: flex;
+        
+    }
+    .l_news {
+        margin: 10px;
+        flex: 1; 
+        
+    }  
+    .l_photo {
+        margin: 10px;
+        flex: 2;
+    }  
+    #video {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+    }
 
-article {
-    margin: 0 auto;
-    border: 1px solid blue;
-    
-}
-section~div {
-    margin: 0 auto;
-    border: 1px solid black;
-    display: flex;   
-    flex-direction: column;
-}
-
-
-.video {
-    margin: 0 auto;
-    
-    
-}
-    
-.form_send_box {
-    visibility: hidden;
-}
+    .form_send_box {
+        visibility: hidden;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 1px;
+        height: 1px;
+    }
 .top_menu {
        display: none;
     }
 .learne_about{
     border: 1px solid #525252;
     border-radius: 4px;
-    
-    margin: 60px;
-    padding: 15px;
 }
-#about {
-    margin: 10px;
-    padding: 10px;
-}
+
 #go {
     background-color: #6699FF;
     border: 1px solid;
@@ -143,6 +158,8 @@ section~div {
     border-radius: 4px;
     text-transform: uppercase;
     padding: 15px;
+    margin: 10px;
+    
 }
 #go a {
     color: white;
@@ -153,14 +170,19 @@ section~div {
 footer {
     color: #fff;
     background-color: #525252;
+    
+    
 }
 .first_footer {
-    border: 1px solid red; 
+    border: 1px solid red;
+   padding: 10px;
+    margin: 10px;
 }
 .second_footer {
     background-color: #6699FF;
     margin: 0 auto;
     height: 40px;
     padding: 10px;
+    
 }
 

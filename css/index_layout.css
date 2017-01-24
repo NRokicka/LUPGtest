@@ -20,9 +20,7 @@
         border: 1px solid;
         border-color: #ff9900;
         visibility: visible;
-        
- 
-}
+    }
     .top_menu {
        display: flex;
        align-items: center;
@@ -42,21 +40,113 @@
     #contacts {
         color: #fff;
         background-color: #ff9900;
-        border: 1px solid;
-        border-color: #ff9900; 
+        border: 1px solid #ff9900;
         border-radius: 4px;
         text-transform: uppercase;
         padding: 10px;
         margin: 10px;
     }
-    .learne_about {
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       margin: 20px;
-    }
+   
+    .learne_about ul {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 0;
+        justify-content: center;
+}
+.form_search form {
+    margin: 40px;
+    padding: 5px 0 5px 0 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #525252;
+    border-radius: 8px;
+    background-color: white;
+    
+}
+.search_field {
+    width: 80%;
+    background-color: white;
+    border: 0;
+}
+.search_button {
+    color: white;
+    background-color: #6699FF;
+    border: 1px solid #6699FF;
+    border-radius: 5px;
+    padding: 20px;
 }
     
+}
+.form_send_box {
+    visibility: hidden;
+    width:100%;
+    height: 350px;
+    position: relative;
+    border: 1px solid #ff9900;
+    border-radius: 4px;
+   
+    /*position: relative;
+     bottom: 0;
+      right: 0;
+      width: 200px;*/
+      
+}
+.form_send_box form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#name {
+    width: 80%;
+    background-color: white;
+    border: 1px solid #525252;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 20px;
+}
+#email {
+    width: 80%;
+    background-color: white;
+    border: 1px solid #525252;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 20px;
+}
+#phone {
+    width: 80%;
+    background-color: white;
+    border: 1px solid #525252;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 20px;
+}
+#message {
+    width: 80%;
+    background-color: white;
+    border: 1px solid #525252;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 20px;
+}
+#submit {
+    color: white;
+    background-color: #6699FF;
+    border: 1px solid #6699FF;
+    border-radius: 5px;
+    padding: 20px;
+}
+    
+}
+.l_photo img {
+    width: 35%;
+}
+}
+
 @media screen and (max-width: 450px) {
    
     .top_menu ul{
@@ -78,12 +168,6 @@
         margin: 0;
         justify-content: center;
     }
-    .learne_about ul{
-        display: flex;
-        flex-direction: column;
-        margin: 20px;
-        padding: 0;
-        justify-content: center;
-}
+    
 
 }
