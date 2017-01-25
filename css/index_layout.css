@@ -7,13 +7,12 @@
     nav ul {
         display: none;
     }
-    #logo {
-       margin-left: 40px;
-    }
+   
     main {
         flex-wrap: wrap;
     }
     main article {
+        
         min-width: 80%;
         order: 1;
     }
@@ -21,6 +20,7 @@
         
         order: 2;
     }
+    
    
     .top_menu {
        display: flex;
@@ -64,7 +64,6 @@
     align-items: center;
     border: 1px solid #525252;
     border-radius: 8px;
-    
 }
 .search_field {
     width: 100%;
@@ -141,26 +140,27 @@
 }
 
 @media screen and (max-width: 450px) {
+    
+   main {
+       padding: 0;
+   }
    
-    .top_menu ul{
+    .top_menu ul {
         display: flex;
         flex-direction: column;
-        margin: 20px;
+        margin: 0 auto;
         padding: 0;
         justify-content: center;
 }
     #blog {
         display: flex;
-        padding: 10px;
-        margin: 0;
-        justify-content: center;
+        padding: 10px 25px;
+       
     }
     #contacts {
         display: flex;
         padding: 10px;
-        margin: 0;
-        justify-content: center;
+        
     }
     
-
 }
