@@ -20,7 +20,10 @@ h4 {
 h3 {
     margin: 10px;
     color: #6699FF;
-    text-decoration: blink underline;
+    text-decoration: underline;
+}
+h2 {
+    font-size: 1rem;
 }
 h1 {
     font-size: 3rem;
@@ -33,6 +36,11 @@ img {
     padding: 10px;
     margin: 0 auto;
     float: left;
+    border-radius: 4px;
+   
+}
+a {
+   color: white; 
 }
 
 header {
@@ -91,8 +99,7 @@ nav #logo {
 nav #nav_menu {
     flex: 2;
 }
-
-#nav_menu a{
+#nav_menu a {
     color: #6699ff;
     text-transform: uppercase;
     font-weight: bold;
@@ -100,7 +107,6 @@ nav #nav_menu {
 #nav_menu a:hover{
     color: #2C3E50;
 }
-
 .carousel {
     background-image: url("/img/alumni2012.jpg");
     background-position: center center;
@@ -119,7 +125,6 @@ main {
     display: flex;
 }
 main article {
-    
     margin: 0 auto;
     flex: 2;
     }
@@ -128,14 +133,13 @@ main aside {
     padding: 10px;
     flex: 1;
     }
-    section {
-        display: flex;
-        justify-content: center;
-        margin: 20px;
-        align-items: center;
+section {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
     }
-    
-    .form_search form {
+.form_search form {
     width: 90%;
     margin: 0 auto;
     padding: 0px;
@@ -177,22 +181,20 @@ main aside {
         
     }
 
-    .form_send_box {
-        visibility: hidden;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 1px;
-        height: 1px;
+.form_send_box {
+    visibility: hidden;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    height: 1px;
     }
 .top_menu {
        display: none;
     }
 .learne_about{
-    
     border: 1px solid #525252;
     border-radius: 4px;
-    
 }
 
 #go {
@@ -216,19 +218,27 @@ main aside {
 footer {
     color: #fff;
     background-color: #525252;
-    
-    
 }
 .first_footer {
-    border: 1px solid red;
-   padding: 10px;
-    margin: 10px;
+  display: flex;
+}
+.footer_initial {
+    display: initial;
+    padding: 2%;
+}
+.footer_flex2 {
+    flex: 2;
+    padding: 2%;
+    
+}
+.footer_flex1 {
+    flex: 1;
+    padding: 2%;
 }
 .second_footer {
     background-color: #6699FF;
-    margin: 0 auto;
     height: 40px;
-    padding: 10px;
-    
+    margin: 0 auto;
+    padding: 2px;
 }
 
