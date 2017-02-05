@@ -1,76 +1,52 @@
 
     
 @media screen and (max-width: 770px) {
-header {
-    display: none;
-    }
-nav ul {
-    display: none;
-    }
-main {
-     flex-wrap: wrap;
-    }
-main article {
-    min-width: 80%;
-    order: 1;
-    }
-main aside {
-    order: 2;
-    }
-.top_menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-    }
-#blog {
-    color: #ff9900;
-    background-color: #fff;
+    
+.main {
+   flex-direction: column;
+    margin: 0 auto;
+}
+.article{
+   order: 1;
+   margin: 10px;
+ 
+}
+.aside {
+   order: 2;
+}
+
+.top_menu_button {
+    list-style-type: none;
+    list-style-position: inside;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 30px; 
+  padding: 0;
+}
+.top_menu_button a{
     border: 1px solid #ff9900;
     border-radius: 4px;
     text-transform: uppercase;
     padding: 10px 25px;
-    margin: 10px;
-    }
-#contacts {
-    color: #fff;
-    background-color: #ff9900;
-    border: 1px solid #ff9900;
-    border-radius: 4px;
-    text-transform: uppercase;
-    padding: 10px;
-    margin: 10px;
-    }
-.learne_about ul {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    padding: 0;
-    justify-content: center;
+    color: #ff9900;
 }
-.form_search form {
-    width: 60%;
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #525252;
-    border-radius: 8px;
+
+.top_menu {
+    display: none;
 }
-.search_field {
-    width: 100%;
-    background-color: white;
-    border: 0;
-    padding: 10px;
+.news {
+   flex-direction: column; 
 }
-.search_button {
-    color: white;
-    background-color: #6699FF;
-    border: 1px solid #6699FF;
-    border-radius: 5px;
-    padding: 20px;
+.news_right {
+    order: 1;
+}
+.news_left {
+    order: 2;
 }
 .form_send_box {
     visibility: visible;
@@ -126,30 +102,19 @@ main aside {
     margin: 10px;
     padding: 10px;
 }
-.l_photo img {
-    width: 35%;
-}
+.news_left img{
+    float: left;
+ }
 }
 
 @media screen and (max-width: 450px) {
-    
-main {
-    padding: 0;
-   }
-.top_menu ul {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 0;
-    justify-content: center;
-   }
-#blog {
-    display: flex;
-    padding: 10px 25px;
-    }
-    #contacts {
-    display: flex;
-    padding: 10px;
-    }
-    
+ 
+.top_menu_button li {
+    margin: 20px;
+}
+.footer_img2 {
+   display: none;
+}
+
+
 }
