@@ -1,57 +1,89 @@
+
 <!DOCTYPE html>
 <html>
-    <head lang="en">
-        <meta charset="UTF-8">
-        
-        <title>Lviv Ukrainian Private Gymnasium</title>
-        <link href="//fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-        <link rel="stylesheet" href="../css/normalize.css">
-        <link rel="stylesheet" href="../css/form.css">
-       
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- start favicon and apple icons -->
 
+<head lang="uk">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lviv Ukrainian Private Gymnasium</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/index_layout.css">
+</head>
 
-    </head>
-    
-    <body>
-        <!-- start header -->
-        <header>
-            <ul id="header_menu">
-                <li><a href="../about/about.html">Blog</a></li>
-                <li><a href="../about/about.html">Parents</a></li>
-                <li><a href="../about/about.html">Alumni</a></li>
-                <li><a href="../about/about.html">Calendar</a></li>
-                <li id="contact_us"><a href="form.html">Contact us</a></li>
-            </ul>
-        </header>
-<!-- end header -->
-    
-<!-- start nav_menu -->
-    <nav>
-        <div id="logo">
-       
-            <img src="../img/LUPG_logotype.jpg" alt="LUPG_logo">
-       
+<body>
+    <header>
+        <div class="container navbar-fixed-top">
+            <div class="row">
+                <div class="col-md-12 hidden-lg-12 hidden-sm-12 hidden-xs">
+                    <ul class="top_menu">
+                        <li><a href="../about/about.html">Blog</a></li>
+                        <li><a href="../about/about.html">Parents</a></li>
+                        <li><a href="../about/about.html">Alumni</a></li>
+                        <li><a href="../about/about.html">Calendar</a></li>
+                        <li id="contact_us"><a href="/">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <nav class="navbar navbar-default nav_menu">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" id="button_tog">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                             </button>
+                            <img class="img-responsive hidden-lg hidden-md hidden-sm" src="../img/LUPG_logo.jpg" alt="logo">
+                            <img class="img-responsive hidden-xs " src="../img/LUPG_logotype.jpg" alt="logo">
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="mynavbar">
+                            <ul class="nav navbar-nav navbar-right nav_menu_right">
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="../index.html">Curriculum</a></li>
+                                <li><a href="../index.html">Programs</a></li>
+                                <li><a href="../index.html">Students</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </div>
         </div>
-        <div id="nav_menu">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../index.html">About</a></li>
-                <li><a href="../index.html">Curriculum</a></li>
-                <li><a href="../index.html">Programs</a></li>
-                <li><a href="../index.html">Students</a></li>
+
+       
+        <div>
+            <ul class="top_menu_button">
+                <li>
+                    <a href="../about/about.html">blogger</a>
+                </li>
+                <li>
+                    <a href="../about/about.html">calendar</a>
+                </li>
+                <li>
+                    <a href="../about/about.html">parents</a>
+                </li>
+                <li>
+                    <a href="../about/about.html">alumni</a>
+                </li>
+
             </ul>
         </div>
-    </nav>
- <!-- end nav_menu -->   
-
+    </header>
 
 <!-- start main -->
-    <main>
+    <main class="main">
         
        
  <div class="form_send_box">
+   
             <form action="//formspree.io/natalia9rokicka@gmail.com"
       method="post">
                 <label for="name"></label>
@@ -67,42 +99,52 @@
         </div>
 </main>
 <!-- start footer -->
-    <footer>
-<!-- start first footer -->
-    <div class="first_footer">
-        <div class="footer_initial">
-            <h2>Ukrainian Private Gymnasium</h2>
-            <p>Lviv, Jaroslavenka str.,3<br>phone: 233 33 33</p>
-           <a href=""><img src="../img/sm1.svg" alt="fb" width="50px" height="50px"></a>
-            <a href=""><img src="../img/sm2.svg" alt="wk" width="50px" height="50px"></a>
-            <a href=""><img src="../img/sm3.svg" alt="tw" width="50px" height="50px"></a>
+     <footer>
+        <!-- start first footer -->
+        <div class="first_footer">
+            <div class="footer_initial">
+                <h2>Ukrainian Private<br> Gymnasium</h2>
+                <p>79000 Lviv,<br> Yaroslavenka str., 3<br>phone: (032) 33 33 33</p>
+                <a href="/"><img src="../img/sm1.svg" alt="fb" width="50px" height="50px"></a>
+                <a href="/"><img src="../img/sm2.svg" alt="wk" width="50px" height="50px"></a>
+                <a href="/"><img src="../img/sm3.svg" alt="tw" width="50px" height="50px"></a>
+            </div>
+            <div class="footer_flex2">
+                <h2>Photostream</h2><br>
+                <div class="footer_img">
+                    <div class="footer_img1">
+                        <a href="/"><img src="../img/stream2_sm.jpg" alt="news1"></a>
+                        <a href="/"><img src="../img/stream2_sm.jpg" alt="news1"></a>
+                    </div>
+                    <div class="footer_img2">
+                        <a href="/"><img src="../img/stream2_sm.jpg" alt="news1"></a>
+                        <a href="/"><img src="../img/stream2_sm.jpg" alt="news1"></a>
+                    </div>
+                    <div class="footer_img5">
+                        <a href="/"><img src="../img/stream1_sm.jpg" alt="news1"></a>
+                        <a href="/"><img src="../img/stream2_sm.jpg" alt="news1"></a>
+                    </div>
+                    <div class="footer_img6">
+                        <a href="/"><img src="../img/stream1_sm.jpg" alt="news1"></a>
+                        <a href="/"><img src="../img/stream2_sm.jpg" alt="news1"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_flex1">
+                <h2>Popular Links</h2><br>
+                <a href="/">Scholarships Announced</a><br>
+                <a href="/">Best Gymnazium</a><br>
+                <a href="/">Our Alumni</a><br>
+            </div>
         </div>
-        <div class="footer_flex2">
-            <h2>Photostream</h2>
-            <div><a href=""><img src="../img/01.jpg" width="80px" height="80px" alt="news1"></a></div>
-            <div><a href=""><img src="../img/02.jpg" width="80px" height="80px" alt="news2"></a></div>
-            <div><a href=""><img src="../img/03.jpg" width="80px" height="80px" alt="news3"></a></div>
-            <div><a href=""><img src="../img/04.jpg" width="80px" height="80px" alt="news4"></a></div>
-            <div><a href=""><img src="../img/05.jpg" width="80px" height="80px" alt="news5"></a></div>
-            <div><a href=""><img src="../img/06.jpg" width="80px" height="80px" alt="news6"></a></div>
-        </div>
-        <div class="footer_flex1">
-            <h2>Popular Links</h2><br>
-             <a href=""> ^ Scholarships Announced</a><br>
-            <a href=""> ^ Best Gymnazium</a><br>
-            <a href=""> ^ Our Alumni</a><br>
-        </div>
-    </div>
-<!-- start second footer -->
+        <!-- start second footer -->
         <div class="second_footer">
             <p>all right reserved Ukrainian Private Gymnasium</p>
         </div>
     </footer>
-    
-     <script
-      src="https://code.jquery.com/jquery-3.1.1.min.js"
-      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="../js/form.js"></script>
-    </body>
+</body>
+
 </html>
