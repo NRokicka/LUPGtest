@@ -293,7 +293,9 @@ img {
 .footer_initial p {
     font: bold 1.2em/1.5em "Arial", sans-serif;
 }
-
+.footer_initial img {
+    width: 50px;
+}
 .footer_initial {
     flex: initial;
     padding: 2%;

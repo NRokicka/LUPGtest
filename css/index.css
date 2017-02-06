@@ -24,6 +24,7 @@ h3 {
     margin: 10px;
     color: #6699FF;
     text-decoration: underline;
+    font-size: 2rem;
 }
 
 h2 {
@@ -139,7 +140,10 @@ img {
     align-items: stretch;
     margin: 20px;
 }
-
+.video iframe {
+    width: 100%;
+    height: 480px;
+}
 .learne_about {
     list-style-type: none;
     list-style-position: inside;
@@ -248,6 +252,9 @@ img {
 
 .footer_initial p {
     font: bold 1.2em/1.5em "Arial", sans-serif;
+}
+.footer_initial img {
+    width: 50px;
 }
 
 .footer_initial {
