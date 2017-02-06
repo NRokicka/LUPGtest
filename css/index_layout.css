@@ -23,13 +23,22 @@
         margin: 30px;
         padding: 0;
     }
-    .top_menu_button a {
+    .top_menu_button_right {
         border: 1px solid #ff9900;
         border-radius: 4px;
         text-transform: uppercase;
         padding: 10px 25px;
         color: #ff9900;
     }
+    .top_menu_button_left {
+        border: 1px solid #ff9900;
+        border-radius: 4px;
+        text-transform: uppercase;
+        padding: 10px 25px;
+        color: #fff;
+        background: #ff9900;
+    }
+    
     .top_menu {
         display: none;
     }
