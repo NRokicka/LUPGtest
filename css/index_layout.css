@@ -1,5 +1,4 @@
 
-    
 @media screen and (max-width: 770px) {
     
 .main {
@@ -14,7 +13,6 @@
 .aside {
    order: 2;
 }
-
 .top_menu_button {
     list-style-type: none;
     list-style-position: inside;
@@ -105,6 +103,16 @@
 .news_left img{
     float: left;
  }
+ .first_footer{
+    flex-wrap: wrap; 
+   justify-content: stretch;
+}
+.footer_img {
+    display: flex;
+   flex-direction: row;
+   width: 100%
+}
+
 }
 
 @media screen and (max-width: 450px) {
@@ -112,8 +120,20 @@
 .top_menu_button li {
     margin: 20px;
 }
-.footer_img2 {
-   display: none;
+.footer_flex1 {
+     display: none;
+}
+.footer_img3 {
+     display: none;
+}
+.footer_img4 {
+     display: none;
+}
+.footer_img5 {
+     display: none;
+}
+.footer_img6 {
+     display: none;
 }
 
 
