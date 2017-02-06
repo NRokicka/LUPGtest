@@ -45,7 +45,7 @@
     .form_send_box {
         visibility: visible;
         width: 100%;
-        height: 350px;
+        height: 380px;
         position: relative;
     }
     .form_send_box form {
