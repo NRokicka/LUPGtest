@@ -17,20 +17,16 @@ h5 {
     color: #ff9900;
      margin-left: 40%;
 }
-
+h3 {
+	color: #6699FF;
+	font-size: 2rem;
+	text-decoration: underline;
+}
 h4 {
     margin: 10px;
     color: #525252;
     text-transform: uppercase;
 }
-
-h3 {
-    margin: 10px;
-    color: #6699FF;
-    text-decoration: underline;
-    font-size: 2rem;
-}
-
 h2 {
     color: #fff;
     font-size: 2rem;

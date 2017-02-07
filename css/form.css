@@ -22,13 +22,11 @@ h4 {
     color: #525252;
     text-transform: uppercase;
 }
-
 h3 {
-    margin: 10px;
-    color: #6699FF;
-    text-decoration: underline;
+	color: #6699FF;
+	font-size: 2rem;
+	text-decoration: underline;
 }
-
 h2 {
     color: #fff;
     font-size: 2rem;
