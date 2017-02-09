@@ -1,5 +1,5 @@
 $(function() {
-    $('#btn-submit').click(function(e) {
+    $('#submit').click(function(e) {
         e.preventDefault();
         $.ajax({
             url: "https://formspree.io/natalia9rokicka@gmail.com",
@@ -11,8 +11,10 @@ $(function() {
                 message: $('#message').val(),
             },
             dataType: "json"
-        });
-       
+        })
+        .done(function() {
+             $('form').html('<p>Thank you!<p>');
+         });
     });
 });
 

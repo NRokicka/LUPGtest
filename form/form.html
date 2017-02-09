@@ -84,10 +84,9 @@
        
  <div class="form_send_box">
     <h5>Contact Us</h5>
-            <form action="//formspree.io/natalia9rokicka@gmail.com"
-      method="post">
+            <form  id="commentForm">
                 <label for="name"></label>
-                <input id="name" type="text" name="name" placeholder="Your Name" required>
+                <input id="name" type="text" name="name" placeholder="Your Name"  minlength="2" required>
                 <label for="email"></label>
                 <input id="email" type="email" name="email" placeholder="Your Email" required>
                 <label for="phone"></label>
@@ -142,9 +141,13 @@
             <p>all right reserved Ukrainian Private Gymnasium</p>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="js/jquery.validate.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="../js/form.js"></script>
+     <script>
+        $("#commentForm").validate();
+    </script>
 </body>
 
 </html>
