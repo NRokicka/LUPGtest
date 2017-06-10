@@ -12,9 +12,10 @@ $(function() {
             },
             dataType: "json"
         })
-        .done(function() {
-             $('form').html('<p>Thank you!<p>');
-         });
+        .done(function(data){
+            $('#commentForm').html('<h1>Thank you!</h1>' 
+              + '<p> Additional info: ' + JSON.stringify(data) + '</p>');
+        });
     });
 });
 
